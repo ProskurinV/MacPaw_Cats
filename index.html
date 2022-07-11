@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetsPaw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="./index.html" class="header__logo"
+          >
+          <svg class="header__logo-svg" width="106" height="24">
+                  <use href="./image/logo.svg"></use>
+                </svg>
+           <!-- <svg class="header__logo-svg">
+                  <use href="./image/logo.svg"></use>
+                </svg>   -->
+                </a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Hi intern!</h1>
+        <h2 class="hero__subTitle">Welcome to MI 2022 Front-end test</h2>
+        <p class="hero__call">Lets start using The Cat API</p>
+        <nav class="hero__nav">
+          <ul class="hero__menu">
+            <li class="hero__menu-item">
+               <img
+                srcset="
+                  ./image/vote-table-min.jpg 117w,
+                  ./image/vote-table2x-min.jpg 234w,
+                  ./image/vote-table3x-min.jpg 351w
+                "
+                src="./image/vote-table-min.jpg"
+                alt="foto"
+                sizes="(min-width: 1200px) 20vw, (min-width: 768px) 20vw, (min-width: 480px) 20vw, 100vw"
+              />
+              <p class="hero__menu-item-title">VOTING</p>
+            </li>
+            <li class="hero__menu-item">
+              <img srcset="
+                  ./image/pet-breeds-min.jpg 117w,
+                  ./image/pet-breeds2x-min.jpg 234w,
+                  ./image/pet-breeds2x-min.jpg 351w
+                "
+                src="./image/pet-breeds-min.jpg"
+                alt="foto"
+                sizes="(min-width: 1200px) 20vw, (min-width: 768px) 20vw, (min-width: 480px) 20vw, 100vw"
+              />
+            <p class="hero__menu-item-title">BREEDS</p></li>
+            <li class="hero__menu-item">
+               <img
+                srcset="
+                  ./image/search-min.jpg 117w,
+                  ./image/search-min.jpg 234w,
+                  ./image/search3x-min.jpg 351w
+                "
+                src="./image/search-min.jpg"
+                alt="foto"
+                sizes="(min-width: 1200px) 20vw, (min-width: 768px) 20vw, (min-width: 480px) 20vw, 100vw"
+              />
+              <p class="hero__menu-item-title">GALLERY</p>
+            </li>
+         </ul>
+        </nav>
+      </section>
+      <section class="bid-girl"></section>
+    </main>
+  </body>
+</html>
