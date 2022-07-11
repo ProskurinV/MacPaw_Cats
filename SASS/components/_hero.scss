@@ -1,0 +1,46 @@
+// .hero {
+// }
+// .container {
+// }
+.hero__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.32;
+  color: #1d1d1d;
+
+  margin-bottom: 10px;
+}
+.hero__subTitle {
+  font-size: 20px;
+  line-height: 1.45;
+
+  color: #8c8c8c;
+
+  margin-bottom: 60px;
+}
+.hero__call {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.45;
+
+  color: #1d1d1d;
+
+  margin-bottom: 20px;
+}
+.hero__nav {
+  display: flex;
+}
+.hero__menu {
+  display: flex;
+  gap: 20px;
+}
+.hero__menu-item {
+}
+.hero__menu-item-content-1 {
+  background-image: linear-gradient(0deg, #b4b7ff, #b4b7ff),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url(../../image/vote-table-min.png);
+}
+
+.hero__menu-item-title {
+}
