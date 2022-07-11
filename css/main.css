@@ -55,11 +55,17 @@ body {
 }
 
 .big-girl {
-  background-color: #e5e5e5;
-  background-image: url(../image/hero-min.jpg);
+  background: #fbe0dc;
+  border-radius: 20px;
+  background-image: url(../../image/hero-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .big-girl {
+    background-image: url(../image/hero2x-min.jpg);
+  }
 }
 
 .header__logo {
@@ -90,20 +96,57 @@ body {
   margin-bottom: 20px;
 }
 
-.hero__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .hero__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 20px;
 }
 
-.hero__menu-item-content-1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#b4b7ff), to(#b4b7ff)), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url(../../image/vote-table-min.png);
-  background-image: linear-gradient(0deg, #b4b7ff, #b4b7ff), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../../image/vote-table-min.png);
+.hero__menu-item__border {
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+
+.hero__menu-item-image1 {
+  background-image: url(../image/vote-table-min.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b4b7ff;
+}
+
+.hero__menu-item-image2 {
+  background-image: url(../../image/pet-breeds-min.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #97eab9;
+}
+
+.hero__menu-item-image3 {
+  background-image: url(../../image/images-search-min.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: linear-gradient(0deg, #ffd280, #ffd280), linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+}
+
+.hero__menu-item-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ff868e;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 138px;
+  height: 36px;
 }/*# sourceMappingURL=main.css.map */

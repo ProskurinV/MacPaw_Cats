@@ -1,8 +1,13 @@
 .big-girl {
-  background-color: #e5e5e5;
+  background: #fbe0dc;
+  border-radius: 20px;
 
-  background-image: url(../image/hero-min.jpg);
+  background-image: url(../../image/hero-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../image/hero2x-min.jpg);
+  }
 }
