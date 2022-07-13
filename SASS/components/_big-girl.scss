@@ -1,22 +1,17 @@
-// .big-girl {
-//   // background-image: url(../../image/hero-min.jpg);
-//   // background-position: center;
-//   // background-repeat: no-repeat;
-//   // background-size: cover;
+.big-girl {
+  background-color: #fbe0dc;
+  width: 680px;
+  height: 840px;
 
-//   // @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//   //   background-image: url(../image/hero2x-min.jpg);
-//   // }
-// }
+  margin-right: auto;
+  margin-left: auto;
 
-// .big-girl__wrap {
-//   max-width: 680px;
-//   max-height: 840px;
+  padding-left: 30px;
 
-//   // padding-top: 30px;
-//   // padding-right: 30px;
-//   // padding-bottom: 30px;
+  border-radius: 20px;
 
-//   background: #fbe0dc;
-//   border-radius: 20px;
-// }
+  background-image: url(../../image/girl-and-pet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
